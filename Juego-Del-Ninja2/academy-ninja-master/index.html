@@ -24,11 +24,11 @@
     			leftValue = leftValue - 10;
 				direction = 'left';
     		}
-    		else if (e.keyCode == 39 && leftValue < 500) { // RIGHT
+    		else if (e.keyCode == 39 && leftValue < 1850) { // RIGHT
     			leftValue = leftValue + 10;    		
 				direction = 'right';
     		}
-    		else if (e.keyCode == 40 && topValue < 500 ) { // DOWN
+    		else if (e.keyCode == 40 && topValue < 870 ) { // DOWN
 				topValue = topValue + 10;
 				direction = 'down';
     		}
@@ -37,7 +37,6 @@
 				direction = 'top';
 			}
     		update();
-			
     	}
     </script>
 </body>
